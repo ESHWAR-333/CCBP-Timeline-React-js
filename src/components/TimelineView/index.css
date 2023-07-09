@@ -1,0 +1,31 @@
+.chrono-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.chrono-main-container {
+  height: 600px;
+  width: 1200px;
+}
+.heading {
+  color: #171f46;
+  width: 260px;
+  text-align: center;
+}
+.span-element {
+  color: #0967d2;
+  padding-top: 90px;
+}
+
+@media screen and (max-width: 768px) {
+  .chrono-main-container {
+    height: 600px;
+    width: 550px;
+  }
+  .heading {
+    font-size: 24px;
+    width: 250px;
+  }
+}
