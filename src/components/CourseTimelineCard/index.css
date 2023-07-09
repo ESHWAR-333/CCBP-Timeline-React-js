@@ -50,7 +50,7 @@
 
 @media screen and (max-width: 768px) {
   .course-time-line-card-container {
-    max-width: 180px;
+    max-width: 110px;
     min-height: 400px;
     display: flex;
     flex-direction: column;
@@ -58,21 +58,24 @@
   }
 
   .course-container {
-    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
   .course-title {
-    font-size: 15px;
+    font-size: 16px;
   }
   .clock-image {
     font-size: 15px;
-    margin-right: 3px;
+    margin-right: 1px;
   }
   .duration {
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 700;
   }
   .course-description {
-    font-size: 15px;
+    font-size: 14px;
   }
   .tag-item {
     margin-right: 2px;

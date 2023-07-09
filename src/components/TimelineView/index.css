@@ -21,8 +21,8 @@
 
 @media screen and (max-width: 768px) {
   .chrono-main-container {
-    height: 600px;
-    width: 550px;
+    height: 550px;
+    width: 420px;
   }
   .heading {
     font-size: 24px;

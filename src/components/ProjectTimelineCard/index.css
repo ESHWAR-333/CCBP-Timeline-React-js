@@ -47,17 +47,23 @@
 
 @media screen and (max-width: 768px) {
   .Project-timeline-card-container {
-    max-width: 180px;
+    max-width: 120px;
   }
   .project-image {
-    width: 185px;
+    width: 130px;
+  }
+  .project-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
   .project-title {
-    font-size: 15px;
+    font-size: 16px;
   }
   .calender-image {
     font-size: 15px;
-    margin-right: 3px;
+    margin-right: 1px;
   }
   .project-duration {
     font-size: 13px;
